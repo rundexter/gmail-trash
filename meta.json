@@ -4,23 +4,21 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-        */
+      {
+        "id": "id",
+        "title":"The ID of the message to delete"
+      },
+      {
+        "id": "userId",
+        "title":"The user's email address"
+      }
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "isRemoved",
+            "title":"isRemoved"
         }
-      */
     ],
-    "title": "Google Delete" /* Required.A display name for the module */
+    "title": "Google Email Delete" /* Required.A display name for the module */
 }
