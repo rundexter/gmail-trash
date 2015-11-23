@@ -20,5 +20,5 @@
             "title":"isRemoved"
         }
     ],
-    "title": "Google Email Delete" /* Required.A display name for the module */
+    "title": "Google Mail Delete" /* Required.A display name for the module */
 }
