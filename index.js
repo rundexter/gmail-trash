@@ -35,7 +35,7 @@ module.exports = {
         google.options({ auth: oauth2Client });
         google.gmail('v1').users.messages.delete({auth: oauth2Client, id: step.input('id', null).first(), userId: step.input('userId', null).first()}, function (err) {
 
-            err? this.fail(err) : this.complete({isRemoved: true});
+            err? this.fail(err) : this.complete({});
         }.bind(this));
 
     }
