@@ -20,5 +20,6 @@
             "title":"isRemoved"
         }
     ],
+    "icon": "google-plus",
     "title": "Google Mail Delete" /* Required.A display name for the module */
 }
