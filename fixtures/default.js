@@ -63,8 +63,8 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                id: 'id_message',
-                userId: 'gmail_address@gmail.com'
+                id: '1511c31d33762c55',
+                userId: 'al.zaretskii@gmail.com'
 
             }
         }
