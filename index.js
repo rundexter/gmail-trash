@@ -44,7 +44,7 @@ module.exports = {
         var app = this;
 
         ids.each( function( id ) {
-            deletes.push( trash_msg( app, service, user, id ) );
+            if ( id ) deletes.push( trash_msg( app, service, user, id ) );
         } )
 
         Q.all( deletes )
