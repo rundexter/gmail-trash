@@ -47,7 +47,7 @@ module.exports = {
             deletes.push( trash_msg( app, service, user, id ) );
         } )
 
-        Q.all( removes )
+        Q.all( deletes )
           .then( function() { app.complete() } )
           .fail( function( err ) { app.fail( err ) } );
     }
