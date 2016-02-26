@@ -43,7 +43,7 @@ module.exports = {
         var deletes = [ ];
         var app = this;
 
-        ids.forEach( function( id ) {
+        ids.each( function( id ) {
             deletes.push( trash_msg( app, service, user, id ) );
         } )
 
