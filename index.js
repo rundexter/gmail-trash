@@ -11,10 +11,10 @@ var pickInputs = {
 
 var trash_msg = function( app, service, user, msg_id ) {
     var deferred = Q.defer();
-    service.users.messages.delete( { 'id': msg_id, 'userId': user, function( err ) {
+    service.users.messages.delete( { 'id': msg_id, 'userId': user } , function( err ) {
         if ( err ) { return deferred.reject( err ) }
         else       { return deferred.resolve() }
-    } )
+    } );
 
     return deferred.promise;
 };
