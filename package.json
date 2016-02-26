@@ -1,17 +1,18 @@
 {
-   "name": "google-delete",
-   "version": "0.0.1",
-   "description": "Moves the specified message to the trash",
-   "main": "index.js",
-   "author": "Run Dexter, Inc",
-   "license": "MIT",
-   "private": true,
-   "dependencies": {
-      "googleapis": "^2.1.6",
-      "lodash": "^3.9.3"
-   },
-   "repository": {
-      "type": "git",
-      "url": "https://github.com/rundexter/gmail-trash"
-   }
+  "name": "google-delete",
+  "version": "0.0.1",
+  "description": "Moves the specified message to the trash",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^2.1.6",
+    "lodash": "^3.9.3",
+    "q": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rundexter/gmail-trash"
+  }
 }
