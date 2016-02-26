@@ -2,18 +2,18 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
+
     "inputs": [
       {
         "id": "id",
-        "title":"The ID of the message to delete"
+        "title":"The IDs of the messages to delete"
       },
       {
         "id": "userId",
         "title":"The user's email address"
       }
     ],
-    //Required. Outputs the module emits.
+
     "outputs": [
         {
             "id": "success",
@@ -29,5 +29,4 @@
         ]
     }],
     "icon": "google-plus",
-    "title": "Google Mail Delete" /* Required.A display name for the module */
-}
+    "title": "Gmail trash"

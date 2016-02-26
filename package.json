@@ -1,5 +1,5 @@
 {
-  "name": "google-delete",
+  "name": "google-trash",
   "version": "0.0.1",
   "description": "Moves the specified message to the trash",
   "main": "index.js",
